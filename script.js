@@ -5,8 +5,6 @@ const clearBtn = document.getElementById("clear");
 generateBtn.addEventListener("click", generateDivs);
 clearBtn.addEventListener("click", clearDivs);
 
-generateDivs();
-
 function generateDivs() {
     container.innerHTML = "";
 
