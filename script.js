@@ -2,6 +2,11 @@ const container = document.getElementById("container");
 const generateBtn = document.getElementById("generate");
 const clearBtn = document.getElementById("clear");
 
+generateBtn.addEventListener("click", generateDivs);
+clearBtn.addEventListener("click", clearDivs);
+
+generateDivs();
+
 function generateDivs() {
     container.innerHTML = "";
 
@@ -23,10 +28,10 @@ function generateDivs() {
             div.innerText = " = FizzBuzz";
         } else if (fizz) {
             div.classList.add("fizz");
-            div.innerText = " = Fizz";
+            div.innerText = i, " = Fizz";
         } else if (buzz) {
             div.classList.add("buzz");
-            div.innerText = " = Buzz";
+            div.innerText = i, " = Buzz";
         } else {
             div.classList.add("number");
             div.innerText = i;
