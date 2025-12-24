@@ -41,9 +41,6 @@ function generateDivs() {
     }
 }
 
-generateBtn.addEventListener("click", generateDivs);
-clearBtn.addEventListener("click", () => {
+function clearDivs() {
     container.innerHTML = "";
-});
-
-generateDivs();
+}
