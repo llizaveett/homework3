@@ -20,13 +20,13 @@ function generateDivs() {
 
         if (fizz && buzz) {
             div.classList.add("fizzbuzz");
-            div.innerText = "FizzBuzz";
+            div.innerText = " = FizzBuzz";
         } else if (fizz) {
             div.classList.add("fizz");
-            div.innerText = "Fizz";
+            div.innerText = " = Fizz";
         } else if (buzz) {
             div.classList.add("buzz");
-            div.innerText = "Buzz";
+            div.innerText = " = Buzz";
         } else {
             div.classList.add("number");
             div.innerText = i;
