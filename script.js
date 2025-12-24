@@ -1,5 +1,5 @@
 const container = document.getElementById("container");
-const generateBtn = document.getElementById("container");
+const generateBtn = document.getElementById("generate");
 const clearBtn = document.getElementById("clear");
 
 function generateDivs() {
